@@ -1,0 +1,31 @@
+<router-outlet></router-outlet>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Demo App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/home">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About </a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0 position-absolute end-0">
+          <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+          <!-- <button class="btn btn-outline-success my-2 my-sm-0 me-2" type="submit">Sign Up</button> -->
+          <a routerLink="/login" class="nav-link me-1">Sign In</a>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <div  class="bg-dark">
+    <hr>
+    <footer class="container-fluid">
+      <p class="mx-auto " style="width: 400px;color: #fff;position: relative;">© 2021-2022 Demo App All Rights Reserved.</p>
+    </footer>
+    <hr></div>
